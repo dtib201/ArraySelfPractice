@@ -43,6 +43,12 @@ namespace ArraySelfPractice
                 Console.WriteLine($"The cost is { costs[i] }");
             }
 
+
+
+            // Add an incorrect data type element to an array and note whether a compiler or a runtime error occurs.
+
+            costs[2] = 12.50 // Note: Compile Error, expected decimal received double
+
             Console.ReadLine();
         }
     }
